@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+app/node_modules
+
+# Source files (not needed in production)
+app/src
+app/tests
+app/docs
+
+# Build configs
+app/webpack.config.js
+app/webpack.prod.config.js
+app/babel.config.js
+
+# Server files (deploy separately)
+app/server
+
+# Development files
+*.log
+.DS_Store
+.env.local
+.env.*.local
+
+# Git files
+.git
+.gitignore

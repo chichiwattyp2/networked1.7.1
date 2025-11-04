@@ -1,0 +1,18 @@
+{
+  "name": "networked-aframe-vercel",
+  "version": "1.0.0",
+  "description": "Networked A-Frame VR experience deployed on Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "aframe",
+    "vr",
+    "webxr",
+    "networked",
+    "multiplayer"
+  ],
+  "license": "MIT"
+}
