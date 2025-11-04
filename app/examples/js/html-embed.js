@@ -575,7 +575,7 @@
             .multiply(d)).determinant()
         )
           return [t, s];
-        var m = new THREE.Matrix4().getInverse(r),
+        var m = new THREE.Matrix4().copy(r).invert(),
           v = new THREE.Vector3(t, s, 0),
           f = new THREE.Vector3(t, s, -1);
         v.applyMatrix4(m), f.applyMatrix4(m);
